@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  min-height: 100vh;
+  font-weight: 400;
+  color: #292f36;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Main colors */
+
+.primary-background {
+  background-color: #0c70f2;
+}
+
+.primary-color {
+  color: #0c70f2;
+}
+
+.secondary-background {
+  background-color: #1d1d1d;
+}
+
+.secondary-color {
+  color: #1d1d1d;
+}
+
+.tertiary-background {
+  background-color: #f6f6f6;
+}
+
+.tertiary-color {
+  color: #f6f6f6;
+}
+
+/* Grid class */
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  padding: 30px;
+}
+
+.al-center{
+  align-items: center;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.fd-column{
+  justify-content: center;
+}
+
+.jc-center{
+  justify-content: center;
+}
+
+.jc-end{
+  justify-content: end;
+}
+
+.jc-space-between{
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .mobile-fd-column{
+    flex-direction: column;
+  }
+  
+}
